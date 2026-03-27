@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD Calon Istriku ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Overlay Musik (Opsional) -->
+    <div id="overlay" onclick="startApp()">
+        <audio id="myAudio" loop>
+            <source src="nuansa.mp3" type="audio/mpeg">
+        </audio>
+        <p>Sentuh Layar untuk Kejutan ❤️</p>
+    </div>
+
+    <div class="container">
+        <!-- Bagian Foto (Galeri) -->
+        <div class="photo-section">
+            <div class="photo-frame slide-in">
+                <img src="foto1.jpg" alt="Foto Kita 1">
+            </div>
+            <div class="photo-frame slide-in">
+                <img src="foto2.jpg" alt="Foto Kita 2">
+            </div>
+            <div class="photo-frame slide-in">
+                <img src="foto3.jpg" alt="Foto Kita 3">
+            </div>
+        </div>
+
+        <!-- Ucapan Utama -->
+        <header>
+            <h1 class="fade-in">Selamat Ulang Tahun, <br><span>Calon Istriku ❤️</span></h1>
+        </header>
+
+        <!-- Bagian Pesan -->
+        <div class="message fade-in">
+            <p>Di hari spesialmu ini, aku cuma mau bilang betapa bersyukurnya aku memilikimu. Terima kasih sudah memilihku untuk menjadi teman hidupmu nanti.</p>
+        </div>
+
+        <!-- Bagian Gift Hidup (Animasi) -->
+        <div class="gift-container" onclick="openGift()">
+            <div id="gift-box">🎁</div>
+            <p id="gift-hint">Klik kado ini!</p>
+        </div>
+
+        <!-- Pesan Rahasia (Muncul setelah kado diklik) -->
+        <div id="secret-message" class="hidden">
+            <h2>I Love You Forever! 💍</h2>
+            <p>Can't wait to start our journey together.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+                              
